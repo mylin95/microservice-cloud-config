@@ -25,6 +25,9 @@ spring:
       max-total: 5
       max-wait-millis: 150
 
+swagger:
+  enable: true
+
 eureka:
   client:
     registerWithEureka: true
@@ -57,6 +60,9 @@ spring:
       max-total: 5
       max-wait-millis: 150
 
+swagger:
+  enable: true
+  
 eureka:
   client:
     registerWithEureka: true

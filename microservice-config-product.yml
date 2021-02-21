@@ -25,9 +25,6 @@ spring:
       max-total: 5
       max-wait-millis: 150
 
-swagger:
-  enable: true
-
 eureka:
   client:
     registerWithEureka: true
@@ -37,6 +34,12 @@ eureka:
   instance:
     instanceId: ${spring.application.name}:${server.port}
     prefer-ip-address: true 
+  
+swagger:
+  enable: true
+  
+emp:
+  name: zhangsan
 ---
 server:
   port: 8001
@@ -60,9 +63,6 @@ spring:
       max-total: 5
       max-wait-millis: 150
 
-swagger:
-  enable: true
-  
 eureka:
   client:
     registerWithEureka: true
@@ -72,3 +72,7 @@ eureka:
   instance:
     instanceId: ${spring.application.name}:${server.port}
     prefer-ip-address: true 
+
+swagger:
+  enable: true
+  

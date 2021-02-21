@@ -39,7 +39,7 @@ swagger:
   enable: true
   
 emp:
-  name: wangwu
+  name: zhangsan
 ---
 server:
   port: 8001
